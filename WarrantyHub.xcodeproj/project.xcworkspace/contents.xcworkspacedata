@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:InProgress.xcodeproj">
+      location = "self:/Users/saalimmajoo/Desktop/InProgress/WarrantyHub.xcodeproj">
    </FileRef>
 </Workspace>
