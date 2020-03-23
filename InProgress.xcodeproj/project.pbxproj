@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		FCDB50EB2411F33500A9408F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB50EA2411F33500A9408F /* AppDelegate.swift */; };
 		FCDB50ED2411F33500A9408F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB50EC2411F33500A9408F /* SceneDelegate.swift */; };
-		FCDB50EF2411F33500A9408F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB50EE2411F33500A9408F /* ViewController.swift */; };
 		FCDB50F22411F33500A9408F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDB50F02411F33500A9408F /* Main.storyboard */; };
 		FCDB50F42411F33500A9408F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDB50F32411F33500A9408F /* Assets.xcassets */; };
 		FCDB50F72411F33500A9408F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDB50F52411F33500A9408F /* LaunchScreen.storyboard */; };
 		FCDB51022411F33500A9408F /* InProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB51012411F33500A9408F /* InProgressTests.swift */; };
 		FCDB510D2411F33600A9408F /* InProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB510C2411F33600A9408F /* InProgressUITests.swift */; };
+		FCDB511B242749F300A9408F /* WelcomeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB511A242749F300A9408F /* WelcomeHomeViewController.swift */; };
+		FCDB511D24274A8700A9408F /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB511C24274A8700A9408F /* FormViewController.swift */; };
+		FCDB511F24282D7600A9408F /* WarrantiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB511E24282D7600A9408F /* WarrantiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		FCDB50E72411F33500A9408F /* InProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB50EA2411F33500A9408F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDB50EC2411F33500A9408F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCDB50EE2411F33500A9408F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCDB50F12411F33500A9408F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCDB50F32411F33500A9408F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDB50F62411F33500A9408F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		FCDB51082411F33600A9408F /* InProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB510C2411F33600A9408F /* InProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressUITests.swift; sourceTree = "<group>"; };
 		FCDB510E2411F33600A9408F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDB511A242749F300A9408F /* WelcomeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHomeViewController.swift; sourceTree = "<group>"; };
+		FCDB511C24274A8700A9408F /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		FCDB511E24282D7600A9408F /* WarrantiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				FCDB50EA2411F33500A9408F /* AppDelegate.swift */,
 				FCDB50EC2411F33500A9408F /* SceneDelegate.swift */,
-				FCDB50EE2411F33500A9408F /* ViewController.swift */,
 				FCDB50F02411F33500A9408F /* Main.storyboard */,
 				FCDB50F32411F33500A9408F /* Assets.xcassets */,
 				FCDB50F52411F33500A9408F /* LaunchScreen.storyboard */,
 				FCDB50F82411F33500A9408F /* Info.plist */,
+				FCDB511A242749F300A9408F /* WelcomeHomeViewController.swift */,
+				FCDB511C24274A8700A9408F /* FormViewController.swift */,
+				FCDB511E24282D7600A9408F /* WarrantiesViewController.swift */,
 			);
 			path = InProgress;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDB50EF2411F33500A9408F /* ViewController.swift in Sources */,
 				FCDB50EB2411F33500A9408F /* AppDelegate.swift in Sources */,
+				FCDB511F24282D7600A9408F /* WarrantiesViewController.swift in Sources */,
 				FCDB50ED2411F33500A9408F /* SceneDelegate.swift in Sources */,
+				FCDB511D24274A8700A9408F /* FormViewController.swift in Sources */,
+				FCDB511B242749F300A9408F /* WelcomeHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
