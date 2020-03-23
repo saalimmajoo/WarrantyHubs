@@ -27,9 +27,29 @@ class FormViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    var nameField = ""
+    var locationBought = ""
+    var datePurchased = ""
+    var warrantyLength = ""
     
     @IBAction func SubmitButton(_ sender: Any) {
+        self.nameField = ItemNameField.text!
+        self.locationBought = LocationBoughtField.text!
+        self.datePurchased = DatePurchasedField.text!
+        self.warrantyLength = WarrantyLengthField.text!
         
+        performSegue(withIdentifier: "Submitted", sender: self)
+        
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var vc = segue.destination as! WarrantiesViewController
+        vc.finalName = self.nameField
+        vc.finalLocation = self.locationBought
+        vc.finalDate = self.datePurchased
+        vc.finalLength = self.warrantyLength
     }
     
     @IBAction func CancelButton(_ sender: Any) {

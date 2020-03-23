@@ -8,28 +8,39 @@
 
 import UIKit
 
-class WarrantiesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+class WarrantiesViewController: UIViewController {
+   
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var LocationLabel: UILabel!
+    
+    @IBOutlet weak var Datelabel: UILabel!
+    
+    
+    @IBOutlet weak var LengthLabel: UILabel!
+    
+    @IBAction func goHomeButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+        
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        
-        cell.textLabel?.text = "row:"
-        
-        return cell
-        
-    }
     
-
-    @IBOutlet weak var tableView: UITableView!
+    var finalName = ""
+    var finalLocation = ""
+    var finalDate = ""
+    var finalLength = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = finalName
+        LocationLabel.text = finalLocation
+        Datelabel.text = finalDate
+        LengthLabel.text = finalLength
 
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*
