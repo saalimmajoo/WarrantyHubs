@@ -32,53 +32,33 @@ and see what will expire soon.
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+Be able to add a warranty
+Be able to include name, date, length of warranty and location bought at
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+Storing multiple warranties using a datatype.
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+First screen is place to add warranty
+Second screen is all warranties
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+First tab is home page
+Second tab is warranties page
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+Add new warranty takes you to form to add that warranty.
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://imgur.com/undefined" width=600>
+<img src="https://imgur.com/a/EfK3aoO" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
 
-### [BONUS] Interactive Prototype
 
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
